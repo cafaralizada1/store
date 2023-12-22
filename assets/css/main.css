@@ -1,0 +1,242 @@
+header {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+header .nvb {
+  width: 90%;
+  height: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+header .nvb a {
+  font-weight: 900;
+  color: #000;
+  font-size: 20px;
+}
+header .nvb .collapseDiv {
+  width: 100%;
+  height: auto;
+}
+header .nvb .collapseDiv .list {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+header .nvb .collapseDiv .list i {
+  color: #FFC918;
+}
+header .nvb .collapseDiv .list li a:hover {
+  color: #FFC918;
+  transition: 0.5s;
+}
+
+main #form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+main #unit1 {
+  position: relative;
+}
+main #unit1 .menCollection img {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 100vh;
+}
+main #unit1 .menCollectionWord {
+  background-color: #fff;
+  border-radius: 50%;
+  position: absolute;
+  top: 20%;
+  left: 20%;
+}
+main #unit1 .menCollectionWord h1,
+main #unit1 .menCollectionWord h2 {
+  color: #000;
+  font-weight: 900;
+}
+main #unit1 .menCollectionWord h1 {
+  font-size: 50px;
+}
+main #unit1 .menCollectionWord h2 {
+  font-size: 30px;
+}
+main #unit1 .menCollectionWord h3 {
+  font-size: 40px;
+  font-weight: 200;
+  color: #000;
+}
+main #unit1 .menCollectionWord p {
+  color: gray;
+}
+main #unit1 .menCollectionWord button {
+  padding: 14px;
+  color: #fff;
+  background-color: #FFC918;
+  border: none;
+  border-radius: 20px;
+}
+main #unit1 .menCollectionWord button:hover {
+  background-color: #000;
+  transition: 0.5s;
+}
+main #unit2 {
+  margin-top: 10%;
+}
+main #unit2 .container {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+main #unit2 .container .people {
+  width: 90%;
+  height: 90%;
+  position: relative;
+}
+main #unit2 .container .people img {
+  width: 100%;
+  height: 100%;
+}
+main #unit2 .container .people .words {
+  width: 99px;
+  height: 99px;
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  background-color: white;
+  border-radius: 50%;
+  border-top-left-radius: 0%;
+}
+main #unit2 .container .people .words h1 {
+  font-size: 24px;
+}
+main #unit3 {
+  margin-top: 6%;
+}
+main #unit3 .arrivalWord {
+  text-align: center;
+}
+main #unit3 .arrivalWordCard {
+  margin-top: 4%;
+}
+main #unit3 .arrivalWordCard .arrivalWordCardImg img {
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: auto;
+}
+main #unit3 .arrivalWordCard .arrivalWordCardImg p {
+  color: #000;
+  font-weight: 300;
+  font-size: 14px;
+  text-align: center;
+  margin-top: 20px;
+}
+main #unit3 .arrivalWordCard .arrivalWordCardImg h1 {
+  color: #FFC918;
+  font-weight: 800;
+  font-size: 14px;
+  text-align: center;
+}
+main #unit4 {
+  margin-top: 6%;
+}
+main #unit4 .customer {
+  text-align: center;
+}
+main #unit4 .customer .customerImg {
+  margin-top: 3%;
+}
+main #unit4 .customer .customerImg h1,
+main #unit4 .customer .customerImg h2 {
+  color: gray;
+  font-size: 20px;
+}
+main #unit4 .customer .customerImg img {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 10%;
+  height: auto;
+  border-radius: 50%;
+}
+main #unit6 {
+  margin-top: 6%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+main #unit6 #btnn {
+  margin-top: 10px;
+  padding: 10px;
+  border: none;
+  border-radius: 30px;
+  background-color: #FFC918;
+  margin-bottom: 10px;
+}
+main #unit6 #btnn:hover {
+  background-color: #92730e;
+  transition: 0.5s;
+}
+main #unit6 #card {
+  gap: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+main #unit6 #card .cardList {
+  text-align: center;
+  border: 1px solid #000;
+}
+main #unit6 #card .cardList h1 {
+  color: #92730e;
+}
+main #unit6 #card .cardList img {
+  margin-top: 10px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 50%;
+  height: auto;
+}
+main #unit6 #card .cardList button {
+  padding: 10px;
+  border: none;
+  border-radius: 30px;
+  background-color: #FFC918;
+  margin-bottom: 10px;
+}
+main #unit6 #card .cardList button:hover {
+  background-color: #92730e;
+  transition: 0.5s;
+}
+
+footer {
+  margin-top: 5%;
+  width: 100%;
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+footer span {
+  color: #FFC918;
+  cursor: pointer;
+}
+footer span:hover {
+  color: #92730e;
+  transition: 0.5s;
+}
